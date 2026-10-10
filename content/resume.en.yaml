@@ -1,0 +1,250 @@
+# resume.en.yaml
+# Content only, no presentation. Dates are ISO (YYY-MM); `end: null` means "present".
+# The French file (resume.fr.yaml) must keep exactly the same shape and ids.
+
+basics:
+  name: François Rogler
+  label: Solution Architect & BI Analyst
+  email: francois@rogler.org
+  phone:
+    value: "+352 661 626 247"
+    print_only: true        # hide on the public web page, show on paper
+  location:
+    address: Rue de la Vallée, 2A
+    postal_code: L-8046
+    city: Strassen
+    country: Luxembourg
+    print_only: true        # same here: show only city/country on the web
+  summary: >-
+    Solution Architect and Business Intelligence Analyst with 20+ years of
+    international experience across cloud infrastructure, data integration, and
+    enterprise systems. Proven expertise in AWS, Talend (Qlik), and Azure, with
+    a strong foundation in technical leadership, pre-sales, and performance
+    optimization.
+
+metrics:
+  - { value: "20+", label: "Years of experience" }
+  - { value: "7", label: "Employers in 3 countries" }
+  - { value: "2", label: "Degrees, in France and the USA" }
+  - { value: "4", label: "Languages spoken" }
+
+skills:
+  - id: cloud
+    title: "Cloud and infrastructure"
+    items: ["AWS (VPC, RDS, ELB, VPN, EC2, IAM, CodeCommit)", "Azure", "High availability", "Corporate VPN", "PKI and x509 certificates"]
+  - id: data
+    title: "Data integration and engineering"
+    items: ["Talend (Qlik)", "MDM and ESB", "Snowflake", "SQL Server", "Informatica"]
+  - id: bi
+    title: "Business intelligence"
+    items: ["Power BI", "OBIEE", "Star schema and slowly changing dimensions", "Data warehousing"]
+  - id: enterprise
+    title: "Enterprise systems"
+    items: ["Dynamics", "Navision", "Salesforce", "SharePoint", "Oracle e-Business Suite", "Siebel CRM", "Pivotal CRM", "Sales Cloud"]
+  - id: dev
+    title: "Programming"
+    items: ["Python", "PowerShell", "Java", ".NET", "Groovy", "Perl", "PHP"]
+  - id: practice
+    title: "Architecture and delivery"
+    items: ["SOA", "TOGAF", "COBIT", "Scrum", "Pre-sales and PoCs", "Technical leadership", "Training"]
+
+education:
+  - id: iit
+    institution: Illinois Institute of Technology
+    location: Chicago, USA
+    degree: Master of Science in Computer Science
+    start: 2002
+    end: 2003
+  - id: esiea
+    institution: ESIEA (Ecole Supérieure d'Electronique, Informatique et Automatique)
+    location: Paris, France
+    degree: Engineering degree
+    start: 1998
+    end: 2004
+
+competencies:
+  - Technical architect experienced in integration architectures SOA, Cloud, Big Data
+  - Consulting in software architecture, performance, identity management and security
+  - Business knowledge on ERP, CRM, BI and MDM solutions
+  - BI Data Analyst
+  - Technical team management
+  - Pre-Sales engineer
+
+experience:
+  - id: luxaviation
+    company: Luxaviation Group
+    sector: Aviation company
+    position: Solution Architect, Business Intelligence
+    location: Luxembourg
+    start: 2018
+    end: null
+    tags: ["Talend", "AWS", "Snowflake", "SQL Server", "Power BI", "Python"]
+    description: >-
+      As a solution architect in the Business Intelligence department, my
+      responsibilities are:
+    highlights:
+      - Maintain and keep up to date Talend Platform
+      - Monitor and cost control Amazon Web Services cloud platform
+      - >-
+        Define, implement and monitor integrations with a lot of various systems
+        on premise (over Corporate VPN) or in the Cloud, including Dynamics,
+        Navision, Snowflake, Salesforce, Sharepoint (Lists and Files within
+        sites), using Talend, PowerShell or Python.
+      - >-
+        Business Aviation knowledge to Implement BI models (Star schema, Slow
+        Changing Dimensions) in a SQL Server Datawarehouse
+      - Design PowerBI reports
+
+  - id: qleap
+    company: Q-Leap
+    sector: Consulting company
+    position: Solution Architect, Technical Lead
+    location: Luxembourg
+    start: 2017
+    end: 2018
+    tags: ["Talend", "AWS", "MDM/ESB", "TOGAF", "PKI"]
+    description: >-
+      As technical leader, I am working in the aviation industry.
+      My responsibilities are:
+    highlights:
+      - >-
+        Define the architecture, setup and administer Talend platform for
+        MDM/ESB in high availability using AWS cloud platform (Amazon Web
+        Services)
+      - Design and implement Amazon web services cloud platform (VPC, RDS, ELB, VPN, EC2, CodeCommit, IAM, ...)
+      - >-
+        Define an applicative vision for the group infrastructure, including
+        corporate network and redundancy in the cloud, with the help of COBIT
+        and TOGAF methodologies.
+      - Provide expertise in certificate (x509) management, PKI
+      - Provide technical assistance to the team.
+      - Define technical solutions and implement them.
+      - Prepare and deliver some pre-sales demonstration/presentation
+
+  - id: talend
+    company: Talend
+    sector: Software Editor
+    position: Senior Consultant, TAM
+    location: Paris, France
+    start: 2015
+    end: 2017
+    tags: ["Talend", "PoC", "Training", "TAM"]
+    description: >-
+      Provide the highest level of knowledge transfer and guidance on Talend
+      solution deployment and implementation lifecycle:
+    highlights:
+      - Promote the use of Talend architecture and development best practices
+      - Design, plan, installation, and configuration of Talend software
+      - Conduct PoCs, support proposal development
+      - Training instructor
+      - Technical Account Management
+
+  - id: software-ag
+    company: Software AG
+    sector: Software Editor
+    position: Pre-Sales Engineer
+    location: Paris, France
+    start: 2014
+    end: 2015
+    tags: ["RFP", "PoC", "Pre-sales"]
+    description: "Part of the pre-sales team, my activities are:"
+    highlights:
+      - Work on RFI, RFP (Request for Information and Proposal)
+      - Prepare POCs (Proof of Concept) and POVs (Proof of value)
+      - Give remote and live product presentations to prospects or customers
+      - Assist sales manager during commercial cycle
+
+  - id: csc
+    company: CSC
+    sector: Consulting Company
+    position: Senior consultant / Expert
+    location: Paris, France
+    start: 2006
+    end: 2014
+    tags: ["Oracle", "Talend", "Siebel CRM", "OBIEE", "Java", "Scrum"]
+    description: >-
+      Part of the Oracle business unit, my activities are split in 3 areas:
+    sections:
+      - title: Technical activities
+        highlights:
+          - >-
+            Architecture definition to integrate cloud applications with on
+            premise backoffice, using integration platforms such as Talend (Qlik)
+          - Conception and implementation of software integration in Java, .Net, Perl, Groovy, PHP...
+          - >-
+            Implementation of Oracle solutions: e-Business suite 11/12, Siebel
+            CRM 8.1, CRM on demand, Sales Cloud, BI Apps (OBIEE, Informatica)
+          - Use of specific methodologies to troubleshoot applications performance issues.
+      - title: Management
+        highlights:
+          - Technical leader on projects in order deliver on schedule and on budget
+          - Use of Agile methodologies (SCRUM methodology)
+          - Tutoring of junior technical consultants
+      - title: Sales
+        highlights:
+          - Work on RFI, RFP (Request for Information and Proposal)
+          - Prepare POCs (Proof of Concept)
+          - Presentation to the prospects / customers
+
+  - id: ibm
+    company: IBM
+    sector: Business Consultant and Services
+    position: Consultant
+    location: Paris, France
+    start: 2003
+    end: 2006
+    tags: ["Pivotal CRM", "Technical lead"]
+    description: >-
+      Part of the CRM solution entity, I am responsible for:
+    highlights:
+      - Integration of a CRM solution (Pivotal) in different business and technological contexts.
+      - Dealing issues with the customer
+      - Technical lead on the solution to train other technical resources
+
+  - id: agere
+    company: Lucent Agere
+    position: Software engineer (internship)
+    location: Utrecht, Netherlands
+    start: 2002
+    end: 2002
+    tags: ["Test automation", "Wireless"]
+    duration: 3 months
+    highlights:
+      - Conception and automation of testing procedures for Wireless routers
+
+languages:
+  - { name: French,       level: native }
+  - { name: English,      level: fluent }
+  - { name: Luxembourgish, level: basic }
+  - { name: German,       level: basic }
+
+hobbies:
+  - Ice hockey
+  - RC models
+
+projects:
+  - id: speedtouch
+    name: Open-source ADSL modem driver (SpeedTouch)
+    role: Co-responsible
+    start: 2002
+    end: 2005
+    description: >-
+      Reverse engineering and development of the branch dedicated to *BSD
+      systems.
+
+certifications:
+  - issuer: Microsoft
+    name: "Microsoft Certified: Azure Solutions Architect Expert"
+    issued: 2022-03-24
+    expires: 2026-03-25
+    url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/E09B1B678DD4A6AE?sharingId=A6ED92583B0D4F9A
+  - issuer: Microsoft
+    name: "Microsoft Certified: Azure Data Engineer Associate"
+    issued: 2021-10-29
+    expires: 2025-10-30
+    url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/51CCC2FE53BE5C89?sharingId=A6ED92583B0D4F9A
+  - issuer: Microsoft
+    name: "Microsoft Certified: Azure Developer Associate"
+    issued: 2022-11-18
+    expires: 2025-11-19
+    url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/9CA3754372AFDEBE?sharingId=A6ED92583B0D4F9A

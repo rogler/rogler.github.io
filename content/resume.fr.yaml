@@ -1,0 +1,254 @@
+# resume.fr.yaml
+# Même structure et mêmes ids que resume.en.yaml. Seul le contenu textuel est traduit.
+# Les valeurs techniques (dates, level, print_only, url, id) restent identiques.
+
+basics:
+  name: François Rogler
+  label: Architecte de solutions & Analyste BI
+  email: francois@rogler.org
+  phone:
+    value: "+352 661 626 247"
+    print_only: true
+  location:
+    address: Rue de la Vallée, 2A
+    postal_code: L-8046
+    city: Strassen
+    country: Luxembourg
+    print_only: true
+  summary: >-
+    Architecte de solutions et analyste Business Intelligence avec plus de
+    20 ans d'expérience internationale en infrastructure cloud, intégration de
+    données et systèmes d'entreprise. Expertise avérée sur AWS, Talend (Qlik) et
+    Azure, appuyée par de solides bases en leadership technique, avant-vente et
+    optimisation des performances.
+
+metrics:
+  - { value: "20+", label: "Années d'expérience" }
+  - { value: "7", label: "Employeurs dans 3 pays" }
+  - { value: "2", label: "Diplômes, en France et aux États-Unis" }
+  - { value: "4", label: "Langues parlées" }
+
+skills:
+  - id: cloud
+    title: "Cloud et infrastructure"
+    items: ["AWS (VPC, RDS, ELB, VPN, EC2, IAM, CodeCommit)", "Azure", "Haute disponibilité", "VPN d'entreprise", "PKI et certificats x509"]
+  - id: data
+    title: "Intégration et ingénierie de données"
+    items: ["Talend (Qlik)", "MDM et ESB", "Snowflake", "SQL Server", "Informatica"]
+  - id: bi
+    title: "Business intelligence"
+    items: ["Power BI", "OBIEE", "Modèle en étoile et dimensions à évolution lente", "Entrepôt de données"]
+  - id: enterprise
+    title: "Systèmes d'entreprise"
+    items: ["Dynamics", "Navision", "Salesforce", "SharePoint", "Oracle e-Business Suite", "Siebel CRM", "Pivotal CRM", "Sales Cloud"]
+  - id: dev
+    title: "Programmation"
+    items: ["Python", "PowerShell", "Java", ".NET", "Groovy", "Perl", "PHP"]
+  - id: practice
+    title: "Architecture et conduite de projet"
+    items: ["SOA", "TOGAF", "COBIT", "Scrum", "Avant-vente et PoC", "Leadership technique", "Formation"]
+
+education:
+  - id: iit
+    institution: Illinois Institute of Technology
+    location: Chicago, États-Unis
+    degree: Master of Science en informatique
+    start: 2002
+    end: 2003
+  - id: esiea
+    institution: ESIEA (École Supérieure d'Électronique, Informatique et Automatique)
+    location: Paris, France
+    degree: Diplôme d'ingénieur
+    start: 1998
+    end: 2004
+
+competencies:
+  - Architecte technique expérimenté en architectures d'intégration SOA, Cloud et Big Data
+  - Conseil en architecture logicielle, performance, gestion des identités et sécurité
+  - Connaissance métier des solutions ERP, CRM, BI et MDM
+  - Analyste de données BI
+  - Management d'équipes techniques
+  - Ingénieur avant-vente
+
+experience:
+  - id: luxaviation
+    company: Luxaviation Group
+    sector: Aviation d'affaires
+    position: Architecte de solutions, Business Intelligence
+    location: Luxembourg
+    start: 2018
+    end: null
+    tags: ["Talend", "AWS", "Snowflake", "SQL Server", "Power BI", "Python"]
+    description: >-
+      En tant qu'architecte de solutions au sein du département Business
+      Intelligence, mes responsabilités sont les suivantes :
+    highlights:
+      - Maintenir et mettre à jour la plateforme Talend
+      - Superviser et maîtriser les coûts de la plateforme cloud Amazon Web Services
+      - >-
+        Définir, mettre en œuvre et superviser des intégrations avec de
+        nombreux systèmes, sur site (via VPN d'entreprise) ou dans le cloud,
+        notamment Dynamics, Navision, Snowflake, Salesforce et Sharepoint
+        (listes et fichiers au sein des sites), avec Talend, PowerShell ou
+        Python.
+      - >-
+        Mobiliser la connaissance de l'aviation d'affaires pour implémenter des
+        modèles BI (schéma en étoile, dimensions à évolution lente) dans un
+        entrepôt de données SQL Server
+      - Concevoir des rapports PowerBI
+
+  - id: qleap
+    company: Q-Leap
+    sector: Société de conseil
+    position: Architecte de solutions, Technical Lead
+    location: Luxembourg
+    start: 2017
+    end: 2018
+    tags: ["Talend", "AWS", "MDM/ESB", "TOGAF", "PKI"]
+    description: >-
+      En tant que responsable technique, j'interviens dans le secteur de
+      l'aviation. Mes responsabilités sont les suivantes :
+    highlights:
+      - >-
+        Définir l'architecture, installer et administrer la plateforme Talend
+        pour MDM/ESB en haute disponibilité sur le cloud AWS (Amazon Web
+        Services)
+      - Concevoir et mettre en place la plateforme cloud Amazon Web Services (VPC, RDS, ELB, VPN, EC2, CodeCommit, IAM, ...)
+      - >-
+        Définir une vision applicative de l'infrastructure du groupe, incluant
+        le réseau d'entreprise et la redondance dans le cloud, en s'appuyant sur
+        les méthodologies COBIT et TOGAF
+      - Apporter une expertise en gestion de certificats (x509) et PKI
+      - Fournir une assistance technique à l'équipe
+      - Définir des solutions techniques et les mettre en œuvre
+      - Préparer et animer des démonstrations et présentations d'avant-vente
+
+  - id: talend
+    company: Talend
+    sector: Éditeur de logiciels
+    position: Consultant senior, TAM
+    location: Paris, France
+    start: 2015
+    end: 2017
+    tags: ["Talend", "PoC", "Formation", "TAM"]
+    description: >-
+      Assurer le plus haut niveau de transfert de connaissances et
+      d'accompagnement sur le déploiement et le cycle de vie d'implémentation
+      des solutions Talend :
+    highlights:
+      - Promouvoir les bonnes pratiques d'architecture et de développement Talend
+      - Conception, planification, installation et configuration des logiciels Talend
+      - Réaliser des PoC et contribuer à la rédaction des propositions commerciales
+      - Formateur
+      - Technical Account Management
+
+  - id: software-ag
+    company: Software AG
+    sector: Éditeur de logiciels
+    position: Ingénieur avant-vente
+    location: Paris, France
+    start: 2014
+    end: 2015
+    tags: ["Appels d'offres", "PoC", "Avant-vente"]
+    description: "Membre de l'équipe avant-vente, mes activités sont les suivantes :"
+    highlights:
+      - Répondre aux RFI et RFP (demandes d'information et de proposition)
+      - Préparer des POC (preuves de concept) et des POV (preuves de valeur)
+      - Réaliser des présentations produit, à distance et en direct, auprès de prospects et de clients
+      - Assister le responsable commercial pendant le cycle de vente
+
+  - id: csc
+    company: CSC
+    sector: Société de conseil
+    position: Consultant senior / Expert
+    location: Paris, France
+    start: 2006
+    end: 2014
+    tags: ["Oracle", "Talend", "Siebel CRM", "OBIEE", "Java", "Scrum"]
+    description: >-
+      Au sein de l'unité d'affaires Oracle, mes activités se répartissent en
+      3 domaines :
+    sections:
+      - title: Activités techniques
+        highlights:
+          - >-
+            Définition d'architectures pour intégrer des applications cloud au
+            système d'information interne, avec des plateformes d'intégration
+            telles que Talend (Qlik)
+          - Conception et réalisation d'intégrations logicielles en Java, .Net, Perl, Groovy, PHP...
+          - >-
+            Mise en œuvre de solutions Oracle : e-Business Suite 11/12, Siebel
+            CRM 8.1, CRM on Demand, Sales Cloud, BI Apps (OBIEE, Informatica)
+          - Utilisation de méthodologies spécifiques pour diagnostiquer les problèmes de performance applicative
+      - title: Management
+        highlights:
+          - Responsable technique de projets pour tenir les délais et les budgets
+          - Utilisation de méthodes agiles (SCRUM)
+          - Encadrement de consultants techniques juniors
+      - title: Ventes
+        highlights:
+          - Répondre aux RFI et RFP (demandes d'information et de proposition)
+          - Préparer des POC (preuves de concept)
+          - Présentations aux prospects et aux clients
+
+  - id: ibm
+    company: IBM
+    sector: Conseil et services aux entreprises
+    position: Consultant
+    location: Paris, France
+    start: 2003
+    end: 2006
+    tags: ["Pivotal CRM", "Référent technique"]
+    description: >-
+      Au sein de l'entité solutions CRM, je suis responsable de :
+    highlights:
+      - Intégration d'une solution CRM (Pivotal) dans différents contextes métier et technologiques
+      - Gestion des problématiques avec le client
+      - Référent technique sur la solution pour former les autres ressources techniques
+
+  - id: agere
+    company: Lucent Agere
+    position: Ingénieur logiciel (stage)
+    location: Utrecht, Pays-Bas
+    start: 2002
+    end: 2002
+    tags: ["Automatisation des tests", "Sans fil"]
+    duration: 3 mois
+    highlights:
+      - Conception et automatisation de procédures de test pour des routeurs sans fil
+
+languages:
+  - { name: Français,      level: native }
+  - { name: Anglais,       level: fluent }
+  - { name: Luxembourgeois, level: basic }
+  - { name: Allemand,      level: basic }
+
+hobbies:
+  - Hockey sur glace
+  - Modélisme RC
+
+projects:
+  - id: speedtouch
+    name: Pilote open source pour modem ADSL (SpeedTouch)
+    role: Co-responsable
+    start: 2002
+    end: 2005
+    description: >-
+      Rétro-ingénierie et développement de la branche dédiée aux systèmes *BSD.
+
+certifications:
+  - issuer: Microsoft
+    name: "Microsoft Certified: Azure Solutions Architect Expert"
+    issued: 2022-03-24
+    expires: 2026-03-25
+    url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/E09B1B678DD4A6AE?sharingId=A6ED92583B0D4F9A
+  - issuer: Microsoft
+    name: "Microsoft Certified: Azure Data Engineer Associate"
+    issued: 2021-10-29
+    expires: 2025-10-30
+    url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/51CCC2FE53BE5C89?sharingId=A6ED92583B0D4F9A
+  - issuer: Microsoft
+    name: "Microsoft Certified: Azure Developer Associate"
+    issued: 2022-11-18
+    expires: 2025-11-19
+    url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/9CA3754372AFDEBE?sharingId=A6ED92583B0D4F9A
