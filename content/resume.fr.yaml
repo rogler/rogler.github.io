@@ -240,7 +240,7 @@ certifications:
   - issuer: Microsoft
     name: "Microsoft Certified: Azure Solutions Architect Expert"
     issued: 2022-03-24
-    expires: 2026-03-25
+    expires: 2027-03-25
     url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/E09B1B678DD4A6AE?sharingId=A6ED92583B0D4F9A
   - issuer: Microsoft
     name: "Microsoft Certified: Azure Data Engineer Associate"
@@ -250,5 +250,5 @@ certifications:
   - issuer: Microsoft
     name: "Microsoft Certified: Azure Developer Associate"
     issued: 2022-11-18
-    expires: 2025-11-19
+    expires: 2027-11-19
     url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/9CA3754372AFDEBE?sharingId=A6ED92583B0D4F9A
