@@ -78,7 +78,7 @@ experience:
     location: Luxembourg
     start: 2018
     end: null
-    tags: ["Talend", "AWS", "Snowflake", "SQL Server", "Power BI", "Python"]
+    tags: ["Talend", "AWS", "SQL Server", "Power BI", "Python"]
     description: >-
       As a solution architect in the Business Intelligence department, my
       responsibilities are:
@@ -90,6 +90,7 @@ experience:
         on premise (over Corporate VPN) or in the Cloud, including Dynamics,
         Navision, Snowflake, Salesforce, Sharepoint (Lists and Files within
         sites), using Talend, PowerShell or Python.
+      - Define, implement and monitor data pipelines via Talend TAC and Apache Airflow
       - >-
         Business Aviation knowledge to Implement BI models (Star schema, Slow
         Changing Dimensions) in a SQL Server Datawarehouse
@@ -102,7 +103,7 @@ experience:
     location: Luxembourg
     start: 2017
     end: 2018
-    tags: ["Talend", "AWS", "MDM/ESB", "TOGAF", "PKI"]
+    tags: ["Talend", "AWS", "MDM/ESB", "PKI"]
     description: >-
       As technical leader, I am working in the aviation industry.
       My responsibilities are:
@@ -239,12 +240,17 @@ certifications:
     expires: 2027-03-25
     url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/E09B1B678DD4A6AE?sharingId=A6ED92583B0D4F9A
   - issuer: Microsoft
-    name: "Microsoft Certified: Azure Data Engineer Associate"
-    issued: 2021-10-29
-    expires: 2025-10-30
-    url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/51CCC2FE53BE5C89?sharingId=A6ED92583B0D4F9A
+    name: "Microsoft Certified: Fabric Data Engineer Associate"
+    issued: 2025-06-03
+    expires: 2027-06-04
+    url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/5D8B994F9A0B5113?sharingId=A6ED92583B0D4F9A
   - issuer: Microsoft
     name: "Microsoft Certified: Azure Developer Associate"
     issued: 2022-11-18
     expires: 2027-11-19
     url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/9CA3754372AFDEBE?sharingId=A6ED92583B0D4F9A
+  - issuer: Microsoft
+    name: "Microsoft Certified: Azure Data Engineer Associate"
+    issued: 2021-10-29
+    expires: 2025-10-30
+    url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/51CCC2FE53BE5C89?sharingId=A6ED92583B0D4F9A

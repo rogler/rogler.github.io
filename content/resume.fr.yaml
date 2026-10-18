@@ -4,7 +4,7 @@
 
 basics:
   name: François Rogler
-  label: Architecte de solutions & Analyste BI
+  label: Architecte de solutions & Data Engineer / Analyste BI
   email: francois@rogler.org
   phone:
     value: "+352 661 626 247"
@@ -26,7 +26,7 @@ metrics:
   - { value: "20+", label: "Années d'expérience" }
   - { value: "7", label: "Employeurs dans 3 pays" }
   - { value: "2", label: "Diplômes, en France et aux États-Unis" }
-  - { value: "4", label: "Langues parlées" }
+  - { value: "2", label: "Langues parlées" }
 
 skills:
   - id: cloud
@@ -63,10 +63,10 @@ education:
     end: 2004
 
 competencies:
-  - Architecte technique expérimenté en architectures d'intégration SOA, Cloud et Big Data
+  - Architecte technique expérimenté en architectures d'intégration SOA, Cloud, ETL, Big Data et Data Quality
+  - Data Engineer & Business Intelligence Analyst, mise en oeuvre de Datawarehouses et de modèles BI
   - Conseil en architecture logicielle, performance, gestion des identités et sécurité
   - Connaissance métier des solutions ERP, CRM, BI et MDM
-  - Analyste de données BI
   - Management d'équipes techniques
   - Ingénieur avant-vente
 
@@ -74,27 +74,26 @@ experience:
   - id: luxaviation
     company: Luxaviation Group
     sector: Aviation d'affaires
-    position: Architecte de solutions, Business Intelligence
+    position: Architecte de solutions, Data Engineer / Business Intelligence
     location: Luxembourg
     start: 2018
     end: null
-    tags: ["Talend", "AWS", "Snowflake", "SQL Server", "Power BI", "Python"]
+    tags: ["Talend", "AWS", "SQL Server", "Power BI", "Python"]
     description: >-
       En tant qu'architecte de solutions au sein du département Business
       Intelligence, mes responsabilités sont les suivantes :
     highlights:
-      - Maintenir et mettre à jour la plateforme Talend
+      - Maintenir et mettre à jour la solution Talend déployée dans le cloud Amazon Web Services
       - Superviser et maîtriser les coûts de la plateforme cloud Amazon Web Services
       - >-
         Définir, mettre en œuvre et superviser des intégrations avec de
         nombreux systèmes, sur site (via VPN d'entreprise) ou dans le cloud,
         notamment Dynamics, Navision, Snowflake, Salesforce et Sharepoint
-        (listes et fichiers au sein des sites), avec Talend, PowerShell ou
-        Python.
+        avec Talend, PowerShell ou Python.
+      - Mise en place et supervision des data pipelines via Talend TAC et Apache Airflow
       - >-
-        Mobiliser la connaissance de l'aviation d'affaires pour implémenter des
-        modèles BI (schéma en étoile, dimensions à évolution lente) dans un
-        entrepôt de données SQL Server
+        Mobiliser mes connaissances de l'aviation d'affaires pour implémenter des
+        modèles BI,schéma en étoile, dans un entrepôt de données SQL Server (Data Warehouse)
       - Concevoir des rapports PowerBI
 
   - id: qleap
@@ -104,7 +103,7 @@ experience:
     location: Luxembourg
     start: 2017
     end: 2018
-    tags: ["Talend", "AWS", "MDM/ESB", "TOGAF", "PKI"]
+    tags: ["Talend", "AWS", "MDM/ESB", "PKI"]
     description: >-
       En tant que responsable technique, j'interviens dans le secteur de
       l'aviation. Mes responsabilités sont les suivantes :
@@ -243,12 +242,17 @@ certifications:
     expires: 2027-03-25
     url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/E09B1B678DD4A6AE?sharingId=A6ED92583B0D4F9A
   - issuer: Microsoft
-    name: "Microsoft Certified: Azure Data Engineer Associate"
-    issued: 2021-10-29
-    expires: 2025-10-30
-    url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/51CCC2FE53BE5C89?sharingId=A6ED92583B0D4F9A
+    name: "Microsoft Certified: Fabric Data Engineer Associate"
+    issued: 2025-06-03
+    expires: 2027-06-04
+    url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/5D8B994F9A0B5113?sharingId=A6ED92583B0D4F9A
   - issuer: Microsoft
     name: "Microsoft Certified: Azure Developer Associate"
     issued: 2022-11-18
     expires: 2027-11-19
     url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/9CA3754372AFDEBE?sharingId=A6ED92583B0D4F9A
+  - issuer: Microsoft
+    name: "Microsoft Certified: Azure Data Engineer Associate"
+    issued: 2021-10-29
+    expires: 2025-10-30
+    url: https://learn.microsoft.com/api/credentials/share/en-us/rogler/51CCC2FE53BE5C89?sharingId=A6ED92583B0D4F9A

@@ -11,6 +11,12 @@ const toc = computed(() => [
   { id: 'languages', label: t.value.sections.languages },
   { id: 'hobbies', label: t.value.sections.hobbies },
 ]);
+const obfuscate = (email) =>
+  email.replace('@', ' at ').replace(/\./g, ' dot ')
+
+const openMail = (email) => {
+  window.location.href = `mailto:${email}`
+}
 </script>
 
 <template>
@@ -20,7 +26,7 @@ const toc = computed(() => [
       <section id="contact" class="block">
         <h2>{{ t.contact }}</h2>
         <dl class="pairs">
-          <dt>{{ t.email }}</dt><dd><a :href="`mailto:${b.email}`">{{ b.email }}</a></dd>
+          <dt>{{ t.email }}</dt><dd><a href="#" @click.prevent="openMail(b.email)">{{ obfuscate(b.email) }}</a></dd>
           <template v-if="showPhone"><dt>{{ t.phone }}</dt><dd>{{ b.phone!.value }}</dd></template>
           <dt>{{ t.location }}</dt><dd>{{ b.location.city }}, {{ b.location.country }}</dd>
         </dl>
