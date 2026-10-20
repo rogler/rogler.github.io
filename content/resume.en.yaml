@@ -30,23 +30,26 @@ metrics:
 
 skills:
   - id: cloud
-    title: "Cloud and infrastructure"
-    items: ["AWS (VPC, RDS, ELB, VPN, EC2, IAM, CodeCommit)", "Azure", "High availability", "Corporate VPN", "PKI and x509 certificates"]
+    title: "Cloud and DevOps"
+    items: ["AWS", "Azure", "Data Fabric", "High availability", "Corporate VPN", "PKI"]
   - id: data
-    title: "Data integration and engineering"
-    items: ["Talend (Qlik)", "MDM and ESB", "Snowflake", "SQL Server", "Informatica"]
+    title: "Data integration and governance"
+    items: ["Talend (Qlik)", "MDM", "ESB", "Snowflake", "SQL Server", "Informatica", "Data pipelines", "Apache Airflow", "Data quality", "GDPR", "Data governance", "Data Lineage"]
   - id: bi
     title: "Business intelligence"
-    items: ["Power BI", "OBIEE", "Star schema and slowly changing dimensions", "Data warehousing"]
+    items: ["Power BI", "Star schema", "Snowflake", "Data warehousing", "Medallion architecture", "Data Fabric", "KPI", "Dashboards"]
   - id: enterprise
     title: "Enterprise systems"
-    items: ["Dynamics", "Navision", "Salesforce", "SharePoint", "Oracle e-Business Suite", "Siebel CRM", "Pivotal CRM", "Sales Cloud"]
+    items: ["Dynamics", "Navision", "Salesforce", "SharePoint", "Oracle e-Business Suite", "Siebel CRM", "Pivotal CRM", "Business Central"]
   - id: dev
     title: "Programming"
-    items: ["Python", "PowerShell", "Java", ".NET", "Groovy", "Perl", "PHP"]
+    items: ["Python", "pandas", "NumPy", "PowerShell", "Java", ".NET", "Groovy", "Perl", "PHP", "Git", "Node.js"]
   - id: practice
     title: "Architecture and delivery"
-    items: ["SOA", "TOGAF", "COBIT", "Scrum", "Pre-sales and PoCs", "Technical leadership", "Training"]
+    items: ["SOA", "TOGAF", "COBIT", "Scrum", "Pre-sales", "Technical leadership", "Training delivery"]
+  - id: ai
+    title: "Artificial intelligence"
+    items: ["Machine Learning", "Deep Learning", "Python", "Claude", "ChatGPT", "NLP"]
 
 education:
   - id: iit
@@ -63,10 +66,11 @@ education:
     end: 2004
 
 competencies:
-  - Technical architect experienced in integration architectures SOA, Cloud, Big Data
+  - Technical architect experienced in integration architectures SOA, Cloud, Big Data (Talend ESB, DI)
+  - Data Engineer and Business Intelligence Analyst, implementing solutions BI models to assist business stakeholders in decision making
+  - Cloud and DevOps expert (AWS, Azure, Data Fabric)
   - Consulting in software architecture, performance, identity management and security
   - Business knowledge on ERP, CRM, BI and MDM solutions
-  - BI Data Analyst
   - Technical team management
   - Pre-Sales engineer
 
@@ -78,23 +82,26 @@ experience:
     location: Luxembourg
     start: 2018
     end: null
-    tags: ["Talend", "AWS", "SQL Server", "Power BI", "Python"]
+    tags: ["Talend", "AWS", "SQL Server", "Power BI", "Python", "Claude"]
     description: >-
       As a solution architect in the Business Intelligence department, my
       responsibilities are:
     highlights:
-      - Maintain and keep up to date Talend Platform
-      - Monitor and cost control Amazon Web Services cloud platform
+      - Maintain and keep up to date Talend Platform (TAC, DI, ESB and formerly MDM)
+      - Monitor and control costs of the Amazon Web Services cloud platform
       - >-
-        Define, implement and monitor integrations with a lot of various systems
-        on premise (over Corporate VPN) or in the Cloud, including Dynamics,
-        Navision, Snowflake, Salesforce, Sharepoint (Lists and Files within
-        sites), using Talend, PowerShell or Python.
-      - Define, implement and monitor data pipelines via Talend TAC and Apache Airflow
+        Design, build and monitor integrations between on-premises and cloud systems
+        (Dynamics, Navision, Snowflake, Salesforce, SharePoint) using Talend Platform (DI,
+        ESB), Python and PowerShell
+      - Build and monitor data pipelines with Talend and Apache Airflow
+      - Ensure data quality, lineage and GDPR compliance
       - >-
-        Business Aviation knowledge to Implement BI models (Star schema, Slow
-        Changing Dimensions) in a SQL Server Datawarehouse
+        Work with business teams to define KPIs implement them using BI models (star and
+        snowflake schemas) in a data warehouse
       - Design PowerBI reports
+      - >-
+        Using Claude Enterprise to migrate data pipelines from Talend to Python/Airflow;
+        querying the Power BI semantic model through Claude MCP connectors
 
   - id: qleap
     company: Q-Leap
@@ -129,7 +136,7 @@ experience:
     location: Paris, France
     start: 2015
     end: 2017
-    tags: ["Talend", "PoC", "Training", "TAM"]
+    tags: ["Talend", "POC", "Training", "TAM"]
     description: >-
       Provide the highest level of knowledge transfer and guidance on Talend
       solution deployment and implementation lifecycle:

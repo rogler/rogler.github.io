@@ -30,23 +30,26 @@ metrics:
 
 skills:
   - id: cloud
-    title: "Cloud et infrastructure"
-    items: ["AWS (VPC, RDS, ELB, VPN, EC2, IAM, CodeCommit)", "Azure", "Haute disponibilité", "VPN d'entreprise", "PKI et certificats x509"]
+    title: "Cloud et DevOps"
+    items: ["AWS", "Azure", "Docker", "Haute disponibilité", "VPN d'entreprise", "PKI"]
   - id: data
-    title: "Intégration et ingénierie de données"
-    items: ["Talend (Qlik)", "MDM et ESB", "Snowflake", "SQL Server", "Informatica"]
+    title: "Intégration et gouvernance de données"
+    items: ["Talend (Qlik)", "MDM", "ESB", "Snowflake", "SQL Server", "Informatica", "Data pipelines", "Apache Airflow", "Qualité des données", "RGPD", "Gouvernance des données", "Linéage de données"]
   - id: bi
     title: "Business intelligence"
-    items: ["Power BI", "OBIEE", "Modèle en étoile et dimensions à évolution lente", "Entrepôt de données"]
+    items: ["Power BI", "Star schema", "Snowflake", "Entrepôt de données", "Medallion architecture", "Data Fabric", "KPI", "Tableaux de bord"]
   - id: enterprise
     title: "Systèmes d'entreprise"
-    items: ["Dynamics", "Navision", "Salesforce", "SharePoint", "Oracle e-Business Suite", "Siebel CRM", "Pivotal CRM", "Sales Cloud"]
+    items: ["Dynamics", "Navision", "Salesforce", "SharePoint", "Oracle e-Business Suite", "Siebel CRM", "Pivotal CRM", "Business Central"]
   - id: dev
     title: "Programmation"
-    items: ["Python", "PowerShell", "Java", ".NET", "Groovy", "Perl", "PHP"]
+    items: ["Python", "pandas", "NumPy", "PowerShell", "Java", ".NET", "Groovy", "Perl", "PHP", "Git", "Node.js"]
   - id: practice
     title: "Architecture et conduite de projet"
-    items: ["SOA", "TOGAF", "COBIT", "Scrum", "Avant-vente et PoC", "Leadership technique", "Formation"]
+    items: ["SOA", "TOGAF", "COBIT", "Scrum", "Avant-vente", "Leadership technique", "Formateur"]
+  - id: ai
+    title: "Intelligence artificielle"
+    items: ["Machine Learning", "Deep Learning", "Python", "Claude", "ChatGPT", "NLP"]
 
 education:
   - id: iit
@@ -64,7 +67,8 @@ education:
 
 competencies:
   - Architecte technique expérimenté en architectures d'intégration SOA, Cloud, ETL, Big Data et Data Quality
-  - Data Engineer & Business Intelligence Analyst, mise en oeuvre de Datawarehouses et de modèles BI
+  - Data Engineer & Business Intelligence Analyst, mise en oeuvre solutions BI pour assister le top management dans la prise de décision
+  - Expert en Cloud et DevOps (AWS, Azure, Data Fabric)
   - Conseil en architecture logicielle, performance, gestion des identités et sécurité
   - Connaissance métier des solutions ERP, CRM, BI et MDM
   - Management d'équipes techniques
@@ -78,23 +82,28 @@ experience:
     location: Luxembourg
     start: 2018
     end: null
-    tags: ["Talend", "AWS", "SQL Server", "Power BI", "Python"]
+    tags: ["Talend", "AWS", "SQL Server", "Power BI", "Python", "Claude"]
     description: >-
       En tant qu'architecte de solutions au sein du département Business
       Intelligence, mes responsabilités sont les suivantes :
     highlights:
-      - Maintenir et mettre à jour la solution Talend déployée dans le cloud Amazon Web Services
+      - Maintenir et mettre à jour la plateforme Talend (TAC, DI, ESB et, auparavant, MDM)
       - Superviser et maîtriser les coûts de la plateforme cloud Amazon Web Services
       - >-
-        Définir, mettre en œuvre et superviser des intégrations avec de
-        nombreux systèmes, sur site (via VPN d'entreprise) ou dans le cloud,
-        notamment Dynamics, Navision, Snowflake, Salesforce et Sharepoint
-        avec Talend, PowerShell ou Python.
-      - Mise en place et supervision des data pipelines via Talend TAC et Apache Airflow
+        Concevoir, mettre en œuvre et superviser des intégrations entre systèmes on-premise
+        et cloud (Dynamics, Navision, Snowflake, Salesforce, SharePoint) à l’aide de la
+        plateforme Talend (DI, ESB), de Python et de PowerShell
+      - Mettre en place et superviser des pipelines de données avec Talend et Apache Airflow
+      - Garantir la qualité des données, leur traçabilité (data lineage) et la conformité RGPD
       - >-
-        Mobiliser mes connaissances de l'aviation d'affaires pour implémenter des
-        modèles BI,schéma en étoile, dans un entrepôt de données SQL Server (Data Warehouse)
-      - Concevoir des rapports PowerBI
+        Collaborer avec les équipes métier pour définir des indicateurs clés de
+        performance (KPI) et les implémenter à l'aide de modèles BI (schéma en
+        étoile et en flocon) dans un entrepôt de données
+      - Concevoir des rapports Power BI
+      - >-
+        Utiliser Claude Enterprise pour migrer des pipelines de données de Talend
+        vers Python/Airflow ; interroger le modèle sémantique Power BI via les
+        connecteurs Claude MCP
 
   - id: qleap
     company: Q-Leap
@@ -129,7 +138,7 @@ experience:
     location: Paris, France
     start: 2015
     end: 2017
-    tags: ["Talend", "PoC", "Formation", "TAM"]
+    tags: ["Talend", "POC", "Formation", "TAM"]
     description: >-
       Assurer le plus haut niveau de transfert de connaissances et
       d'accompagnement sur le déploiement et le cycle de vie d'implémentation
