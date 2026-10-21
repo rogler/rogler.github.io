@@ -21,5 +21,8 @@ usePageMeta('home', resume);
         <dd>{{ m.label }}</dd>
       </div>
     </dl>
+    <div>
+      <CompetencyList :items="resume.competencies" :lang="lang" />
+    </div>
   </div>
 </template>
